@@ -113,6 +113,7 @@ public class NhanVien_GUI extends JFrame implements ActionListener, MouseListene
 		btgr.add(chkNam);
 		btgr.add(chkNu);
 		
+		chkNam.setSelected(true);
 
 		b.add(b4 = Box.createHorizontalBox());
 		b.add(Box.createVerticalStrut(10));
